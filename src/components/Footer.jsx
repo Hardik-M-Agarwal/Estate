@@ -4,7 +4,7 @@ import { assets } from '/src/assets/assets.js';
 function Footer(){
     return(
         <div className='pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 w-full overflow-hidden' id='Footer'>
-            <div className='container mx-auto flex flex-col md:flex-row justifyy-between items-start'>
+            <div className='container mx-auto flex flex-col md:flex-row justify-between items-start'>
                 <div className='w-full md:w-1/3 mb-8 md:mb-0'>
                     <img src={assets.logo_dark}></img>
                     <p className='text-gray-400 mt-4'> Dedicated to helping you find your dream home with ease and confidence. Explore our listings and discover a place you can truly call home.</p>
